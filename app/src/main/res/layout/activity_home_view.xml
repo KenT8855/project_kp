@@ -166,14 +166,6 @@
             android:textColor="#87CEEB"
             android:textStyle="bold"/>
 
-
-
-
-
-
-
-
-
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
