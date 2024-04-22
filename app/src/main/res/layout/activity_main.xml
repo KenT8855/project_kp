@@ -28,6 +28,7 @@
         />
 
     <Button
+        android:id="@+id/btn_signin"
         android:layout_width="800px"
         android:layout_height="wrap_content"
         android:text="Sign in"
@@ -37,6 +38,7 @@
         android:backgroundTint="#87CEEB"/>
 
     <Button
+        android:id="@+id/btn_signup"
         android:layout_width="800px"
         android:layout_height="wrap_content"
         android:text="Sign up"

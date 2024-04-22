@@ -20,6 +20,7 @@
 
 
     <ImageButton
+        android:id="@+id/ib_arrow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/arrow"
@@ -36,6 +37,7 @@
         />
 
     <EditText
+        android:id="@+id/et_email"
         android:layout_width="700px"
         android:layout_height="wrap_content"
         android:hint="Enter Your Email"
@@ -47,6 +49,7 @@
         />
 
     <EditText
+        android:id="@+id/et_password"
         android:layout_width="700px"
         android:layout_height="wrap_content"
         android:hint="Enter your Password"
@@ -58,6 +61,7 @@
         />
 
     <Button
+        android:id="@+id/btn_signin"
         android:layout_width="800px"
         android:layout_height="wrap_content"
         android:text="Sign in"
