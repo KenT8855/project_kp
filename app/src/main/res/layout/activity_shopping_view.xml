@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShoppingView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_marginBottom="90px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="200px"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_text_view"
+            android:padding="40px"
+            android:text="Home"
+            android:textColor="#FFFFFF"
+            android:textSize="80px"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Products"
+        android:textSize="60px"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#87CEEB"
+        android:layout_marginBottom="100px"
+        android:padding="20px"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50px">
+
+
+
+    <Button
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="35px"
+        android:hint="Search"
+        android:textSize="50px"
+        android:backgroundTint="#87CEEB"
+        />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint=""
+            android:src="@drawable/search2" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="180px">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="800px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50px"
+            android:src="@drawable/kotak"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recommendation for you"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/kotak_kecil" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dogwell"
+        android:textSize="80px"
+        android:padding="20px"
+        android:background="#87CEEB"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+
+</LinearLayout>

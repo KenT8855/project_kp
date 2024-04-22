@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_marginBottom="50px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="200px"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_text_view"
+            android:padding="40px"
+            android:text="Home"
+            android:textColor="#FFFFFF"
+            android:textSize="80px"></TextView>
+
+<!--        <ImageView-->
+<!--            android:layout_width="50px"-->
+<!--            android:layout_height="200px"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="#87CEEB"-->
+<!--            android:padding="40px"-->
+<!--            android:src="@drawable/user"></ImageView>-->
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="—— Healthy Fit ——"
+        android:textColor="#87CEEB"
+        android:textSize="80px"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cat_banner" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#87CEEB"
+        android:text="Shopping for Animal Product" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50px">
+
+        <ImageView
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:src="@drawable/chatbot" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chatbot"
+                android:textStyle="bold"
+                android:textColor="#87CEEB"
+                android:textSize="70px"
+                android:background="@drawable/underline_text_view"
+                android:layout_marginBottom="20px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our Newest feature ahsdhas" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Services"
+        android:gravity="center"
+        android:background="@drawable/border_text_view"
+        android:textSize="70px"
+        android:layout_marginBottom="80px"
+        android:padding="20px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:src="@drawable/anatomy"
+            android:background="@drawable/circled_background"
+            android:padding="30px"/>
+
+        <ImageView
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:src="@drawable/chat"
+            android:background="@drawable/circled_background"
+            android:layout_marginLeft="150px"
+            android:padding="30px"/>
+
+        <ImageView
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:src="@drawable/shopping"
+            android:background="@drawable/circled_background"
+            android:layout_marginLeft="150px"
+            android:padding="30px"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dog's Anatomy"
+            android:textSize="40px"
+            android:gravity="left"
+            android:textColor="#87CEEB"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special Care"
+            android:textSize="40px"
+            android:gravity="center"
+            android:layout_marginLeft="150px"
+            android:textColor="#87CEEB"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shopping"
+            android:textSize="40px"
+            android:gravity="center"
+            android:layout_marginLeft="190px"
+            android:textColor="#87CEEB"
+            android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dogwell"
+        android:textSize="80px"
+        android:padding="10px"
+        android:background="#87CEEB"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+</LinearLayout>

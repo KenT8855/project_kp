@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Petwell"
+        android:textSize="80px"
+        android:padding="30px"
+        android:background="#87CEEB"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="200px"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user"
+        android:layout_marginTop="150px"
+        android:layout_marginBottom="250px"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textSize="40px"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40px"
+        android:backgroundTint="#87CEEB"/>
+
+    <Button
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textSize="40px"
+        android:layout_gravity="center"
+        android:backgroundTint="#87CEEB"/>
+
+
+</LinearLayout>
